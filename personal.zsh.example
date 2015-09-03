@@ -1,0 +1,9 @@
+ZSH_THEME="agnoster"
+EDITOR=vim
+
+#export TERM=xterm-256color
+export http_proxy=**REMOVED**
+export https_proxy=$http_proxy
+if [ -d "$HOME/bin" ] ; then
+  PATH="$HOME/bin:$PATH"
+fi
